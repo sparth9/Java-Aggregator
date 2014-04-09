@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.002" errors="0" skipped="0" tests="1" name="net.sf.jagg.test.msd.ByteDiscriminatorTest">
+<testsuite failures="0" time="0.008" errors="0" skipped="0" tests="1" name="net.sf.jagg.test.msd.ByteDiscriminatorTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Users\sai sundaram\algs4\java\bin"/>
-    <property name="java.vm.version" value="23.3-b01"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_25\jre\bin"/>
+    <property name="java.vm.version" value="23.25-b01"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.script" value=""/>
@@ -16,19 +15,21 @@
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\sai sundaram\Desktop\master&apos;s proj\jagg\src\jagg-core"/>
-    <property name="java.runtime.version" value="1.7.0_07-b10"/>
+    <property name="java.runtime.version" value="1.7.0_25-b17"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Users\sai sundaram\algs4\java\lib\endorsed"/>
+    <property name="basedir" value="C:\Users\sai sundaram\Desktop\master&apos;s proj\jagg\src\jagg-core"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_25\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\SAISUN~1\AppData\Local\Temp\surefirebooter300068919334477801.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\SAISUN~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\sai sundaram\Desktop\master&apos;s proj\eclipse workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7335398873006937924.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\sai sundaram\algs4\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/sai sundaram/algs4/java/bin/server;C:/Users/sai sundaram/algs4/java/bin;C:/Users/sai sundaram/algs4/java/lib/amd64;C:\Users\sai sundaram\algs4\java\bin;C:\Users\sai sundaram\Desktop\spring 2014\se 2;C:\windows\system32;E:\Program Files\mongodb-win32-x86_64-2008plus-2.4.8\bin;C:\Program Files\Java\jdk1.7.0_25\bin;E:\groovy grails\grails-2.2.2\grails-2.2.2\bin;E:\maven\apache-maven-2.2.1\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;C:\Users\sai sundaram\Desktop\spring 2014\se 2\Project\db-derby-10.10.1.1-bin\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Subversion\bin;C:\Users\sai sundaram\algs4\bin;C:\Users\sai sundaram\algs4\java\bin;;E:\Fall 2013\Middleware\Middleware project\Eclipse\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_25\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\sai sundaram\algs4\java\bin;C:\Users\sai sundaram\Desktop\spring 2014\se 2;C:\windows\system32;E:\Program Files\mongodb-win32-x86_64-2008plus-2.4.8\bin;C:\Program Files\Java\jdk1.7.0_25\bin;E:\groovy grails\grails-2.2.2\grails-2.2.2\bin;E:\maven\apache-maven-2.2.1\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;C:\Users\sai sundaram\Desktop\spring 2014\se 2\Project\db-derby-10.10.1.1-bin\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Subversion\bin;C:\Users\sai sundaram\AppData\Local\GitHub;C:\Users\sai sundaram\algs4\bin;C:\Users\sai sundaram\algs4\java\bin;;."/>
+    <property name="surefire.test.class.path" value="C:\Users\sai sundaram\Desktop\master&apos;s proj\jagg\src\jagg-core\target\test-classes;C:\Users\sai sundaram\Desktop\master&apos;s proj\jagg\src\jagg-core\target\generated-classes\emma\classes;C:\Users\sai sundaram\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;C:\Users\sai sundaram\.m2\repository\emma\emma\2.1.5320\emma-2.1.5320.jar;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -39,27 +40,26 @@
     <property name="java.specification.version" value="1.7"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="sai sundaram"/>
-    <property name="java.class.path" value="/E:/Fall 2013/Middleware/Middleware project/Eclipse/eclipse/configuration/org.eclipse.osgi/bundles/531/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.class.path" value="C:\Users\sai sundaram\Desktop\master&apos;s proj\jagg\src\jagg-core\target\test-classes;C:\Users\sai sundaram\Desktop\master&apos;s proj\jagg\src\jagg-core\target\generated-classes\emma\classes;C:\Users\sai sundaram\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;C:\Users\sai sundaram\.m2\repository\emma\emma\2.1.5320\emma-2.1.5320.jar;"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Users\sai sundaram\algs4\java"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_25\jre"/>
+    <property name="sun.java.command" value="C:\Users\SAISUN~1\AppData\Local\Temp\surefirebooter300068919334477801.jar C:\Users\SAISUN~1\AppData\Local\Temp\surefire634838976036034143tmp C:\Users\SAISUN~1\AppData\Local\Temp\surefire3968090924012959474tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.7.0_07"/>
-    <property name="java.ext.dirs" value="C:\Users\sai sundaram\algs4\java\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Users\sai sundaram\algs4\java\lib\resources.jar;C:\Users\sai sundaram\algs4\java\lib\rt.jar;C:\Users\sai sundaram\algs4\java\lib\sunrsasign.jar;C:\Users\sai sundaram\algs4\java\lib\jsse.jar;C:\Users\sai sundaram\algs4\java\lib\jce.jar;C:\Users\sai sundaram\algs4\java\lib\charsets.jar;C:\Users\sai sundaram\algs4\java\lib\jfr.jar;C:\Users\sai sundaram\algs4\java\classes"/>
+    <property name="java.version" value="1.7.0_25"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\sai sundaram\Desktop\master&apos;s proj\jagg\src\jagg-core\EMBEDDED"/>
+    <property name="localRepository" value="C:\Users\sai sundaram\.m2\repository"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="maven.bootclasspath" value="/E:/Fall 2013/Middleware/Middleware project/Eclipse/eclipse/configuration/org.eclipse.osgi/bundles/531/1/.cp/jars/plexus-classworlds-2.4.jar"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0" classname="net.sf.jagg.test.msd.ByteDiscriminatorTest" name="testDiscrimination"/>
+  <testcase time="0.003" classname="net.sf.jagg.test.msd.ByteDiscriminatorTest" name="testDiscrimination"/>
 </testsuite>
